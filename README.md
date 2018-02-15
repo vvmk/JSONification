@@ -5,18 +5,18 @@
 
 **To be clear** this is not the lab spec but a guide/notes for myself while creating it
 
-###lab objectives
+### lab objectives
 * most popular JSON lib for java
 * demonstrate the ~5 most common operations
 * don't have to write tests
 * tryhard: write tests
 * tryhard: write project spec 
 
-###Jackson <s>or Gson</s>
+### Jackson <s>or Gson</s>
 * import [Jackson](http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind) maven dependency  
 * 
 
-###~5 most common JSON operations
+### ~5 most common JSON operations
 * CRUD 
     + **create** a JSONObject from java Object
         + at least 2 nesting layers
@@ -35,9 +35,8 @@
 * change field name/ ignore properties on serialization
 * 
 
-###poi
+#### considerations
 * store JSON data
-* store JSON data in Array
-* nesting data
-* objects vs arrays
+* touch arrays and objects
+* nested data
 * why is JSON important
