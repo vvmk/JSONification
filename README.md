@@ -1,16 +1,22 @@
 # JSONification [WIP]
 
+
+"Write me a JSON lab" -Kris
+
+**To be clear** this is not the lab spec but a guide/notes for myself while creating it
+
 ###lab objectives
 * most popular JSON lib for java
-* demonstrate the 5 most common operations
-* optional: write tests
-* optional: write project desc.
+* demonstrate the ~5 most common operations
+* don't have to write tests
+* tryhard: write tests
+* tryhard: write project spec 
 
-###action tracker
+###Jackson <s>or Gson</s>
 * import [Jackson](http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind) maven dependency  
 * 
 
-###5 most common JSON operations
+###~5 most common JSON operations
 * CRUD 
     + **create** a JSONObject from java Object
         + at least 2 nesting layers
@@ -28,17 +34,10 @@
 * Jackson Annotations are fair game
 * change field name/ ignore properties on serialization
 * 
-###understanding JSON
+
+###poi
 * store JSON data
 * store JSON data in Array
 * nesting data
 * objects vs arrays
 * why is JSON important
-
-###pile
-* build a JSON java object
-    call stuff on it
-    output as text
-    maybe to file
-
-* 
