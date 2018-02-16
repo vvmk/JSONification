@@ -38,7 +38,7 @@ public class Post {
         return body;
     }
 
-    public String getCreatedAt() {
-        return createdAt.toString();
+    public Date getCreatedAt() {
+        return createdAt;
     }
 }

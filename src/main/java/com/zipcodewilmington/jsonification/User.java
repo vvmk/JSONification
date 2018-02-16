@@ -2,7 +2,6 @@ package com.zipcodewilmington.jsonification;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Map;
 
 /**
  * filename:
@@ -13,13 +12,13 @@ import java.util.Map;
 public class User {
     private String name;
     private String bio;
-    private Date joinedOn;
+    private Date createdAt;
     private ArrayList<Post> posts;
 
     public User(String name, String bio) {
         this.name = name;
         this.bio = bio;
-        this.joinedOn = new Date(System.currentTimeMillis());
+        this.createdAt = new Date(System.currentTimeMillis());
         this.posts = new ArrayList<>();
     }
 
@@ -43,8 +42,8 @@ public class User {
         this.bio = bio;
     }
 
-    public Date getJoinedOn() {
-        return joinedOn;
+    public Date getCreatedAt() {
+        return createdAt;
     }
 
     public ArrayList<Post> getPosts() {
