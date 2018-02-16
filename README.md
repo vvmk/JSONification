@@ -1,4 +1,4 @@
-# JSONification [WIP]
+# com.zipcodewilmington.jsonification.JSONification [WIP]
 
 
 "Write me a JSON lab" -Kris
@@ -36,7 +36,12 @@
 * 
 
 #### considerations
+* Maps are great, already key -> value
+* must throw/handle JsonProcessingExceptions
 * store JSON data
 * touch arrays and objects
 * nested data
 * why is JSON important
+* on Marshall
+    * Date usedOn convert to string
+    * ArrayList<com.zipcodewilmington.jsonification.Post> posts to com.zipcodewilmington.jsonification.Post[]
