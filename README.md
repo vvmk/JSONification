@@ -6,7 +6,8 @@
 * **Instructions:**
 	 	 First, include the [Jackson Maven Dependency](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind). You may need to do some independant research. 
 	This json [prettifier](http://prettifier.net/json/) will make your life easier.
-    	* Write a method `getMapper()` that returns a JsonObjectMapper object
+    	
+	* Write a method `getMapper()` that returns a JsonObjectMapper object
     	* Test it
 
 
