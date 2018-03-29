@@ -42,3 +42,6 @@
     ### bonus
     	* protect (and test) your code against existing fields with value `null`
     	* properly handle all IO & JsonExceptions
+
+be excellent to eachother
+
